@@ -7,7 +7,7 @@ Call your http server stack code using an in memory http listener. No sockets ne
 [![downloads](https://img.shields.io/npm/dm/google-cloud-function-http-server.svg)](https://npmjs.org/package/google-cloud-function-http-server)
 [![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/google-cloud-function-http-server.svg)](https://greenkeeper.io/)
 
-## server.js
+## index.js
 
 ```javascript
 require('http').createServer((req, res) => {
@@ -16,10 +16,10 @@ require('http').createServer((req, res) => {
 .listen(5000)
 ```
 
-## google-cloud-function.js
+## proxy.js
 
 ```javascript
-exports.proxy = require('google-cloud-function-http-server')
+exports.http = require('google-cloud-function-http-server')
 require('./index.js')
 ```
 
@@ -40,7 +40,7 @@ functions:
   proxy:
     environment:
       SERVER_PORT: "5000"
-    handler: proxy
+    handler: http
     events:
       - http: path
 ```
