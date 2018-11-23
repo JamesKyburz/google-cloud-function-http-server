@@ -1,0 +1,25 @@
+{
+  "name": "google-cloud-function-http-server",
+  "description": "run http servers as google cloud functions",
+  "keywords": [
+    "google-cloud-function",
+    "serverless",
+    "proxy",
+    "http"
+  ],
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/google-cloud-function-http-server.git"
+  },
+  "author": {
+    "name": "james kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "devDependencies": {},
+  "files": [
+    "src"
+  ],
+  "license": "Apache-2.0"
+}
