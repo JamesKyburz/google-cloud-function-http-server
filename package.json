@@ -17,9 +17,14 @@
     "name": "james kyburz",
     "email": "james.kyburz@gmail.com"
   },
-  "devDependencies": {},
   "files": [
     "src"
   ],
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "in-memory-http-listener": "0.1.10"
+  },
   "license": "Apache-2.0"
 }
