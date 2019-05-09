@@ -27,7 +27,7 @@
     "in-memory-http-listener": "0.1.11"
   },
   "devDependencies": {
-    "tap": "12.1.0"
+    "tap": "13.1.6"
   },
   "license": "Apache-2.0"
 }
