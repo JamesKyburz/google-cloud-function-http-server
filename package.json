@@ -24,7 +24,7 @@
     "test": "tap test/*.js"
   },
   "dependencies": {
-    "in-memory-http-listener": "0.1.11"
+    "in-memory-http-listener": "0.1.32"
   },
   "devDependencies": {
     "tap": "12.1.0"
